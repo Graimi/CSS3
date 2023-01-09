@@ -1,0 +1,59 @@
+/* ABSOLUTAS */
+/*Son tamaños abolutos, se reduzca o no la página web o app, dato a tener en cuenta*/
+
+.pulgadas {
+    font-size: 0.5in;
+}
+
+.milimetros {
+    font-size: 5mm;
+}
+
+.puntos {
+    font-size: 12pt;
+}
+
+.picas {
+    font-size: 5pc;
+}
+
+/* RELATIVAS*/
+/*Son tamaños relativos, si cambian de tamaño en relación se agranda o empequñece la web o app, dato a tener en cuenta*/
+
+p { /* Hace relación al margen que tendrá la página sobre el texto y sobre el cual comenzará a cambiar el tamaño de la letra si este es de tamaño relativo*/
+    font-size: 32px; /*Los píxeles es la medida más usada*/
+    margin: 0.5em;
+}
+
+.em {
+    font-size: 1em;
+}
+
+.rem {
+    font-size: 1rem;
+}
+
+.pixel {
+    font-size: 6px;
+}
+
+body {
+    margin: 0;
+    background-color: aqua;
+}
+
+div {
+    height: 10vh;
+}
+
+div#contenido {
+    width: 500px;
+    background-color: aquamarine;
+}
+
+div.principal {
+    width: 95%;
+    background-color: blue;
+    color: aliceblue;
+}
+

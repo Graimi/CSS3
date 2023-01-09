@@ -1,0 +1,15 @@
+.name_color {
+    color:palevioletred;
+}
+
+.name_rgb {
+    color: rgb(129, 24, 24)
+}
+
+.name_rgba {
+    color: rgba(129, 24, 24, 0.2)
+}
+
+.name_hexadecimal {
+    color: #878787
+}

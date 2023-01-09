@@ -1,0 +1,23 @@
+.container-one {
+    width: 80%;
+    height: 100px;
+    background-color: aqua;
+    margin: 20px 5px 40px 10px;
+    padding: 50px;
+    overflow: visible; /*Están visible (se sale de la caja), hidden (lo que no cabe en la caja no se ve), scroll (con la rueda del ratón) y auto (normalmente scroll)*/
+    box-shadow: 0 0 0 2em #f4aab9;
+}
+
+.container-two {
+    width: 60%;
+    height: 200px;
+    background-color: bisque;
+    margin: 80px;
+    border: 1px;
+    box-shadow: inset 0 -3em 3em rgba(rgb(68, 39, 39), green, blue, 0.9), rgba(red, green, blue, 0.5);
+}
+
+.content {
+    width: 500px;
+    background-color: gold;
+}

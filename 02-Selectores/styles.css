@@ -1,0 +1,53 @@
+.greetring {
+    color: chocolate;
+    width: 12px;
+    font-size: 50px;
+}
+
+.other {
+    color: blueviolet;
+    caret-color: black;
+}
+
+.divider {
+    background-color: azure;
+}
+
+.blue,
+.red { /*Con este sistema podemos referenciar varias clases a la vez*/
+    color: blue; 
+}
+
+.red { /*Pero CSS funciona en cascada y hace caso al último escrito, en este caso .red será rojo y no azul*/
+    color: red;
+}
+
+footer p {
+    color: green;
+}
+
+.container > h2 { /*Hace referencia a que los estilos de la class container tendrá ventaja sobre h2*/
+    color: lawngreen;
+}
+
+div > h2 { /*Hace referencia a que los estilos del tipo div tendrá ventaja sobre el tipo h2*/
+    color: brown;
+}
+
+li:first-child { /*Solo ataca al primer elemento de la lista*/
+    color: plum;
+}
+
+li:last-child { /*Solo ataca al último elemento de la lista*/
+    color: rgb(30, 239, 239);
+}
+
+a[href="hola.com"] { /*Ataca solo al estilo del tipo a que tenga como enlace específico "Hola.com"*/
+    color: pink;
+}
+
+/*  A B C D 
+Clase -> 0 0 1 0 
+etiqueta -> 0 0 0 1
+id -> 0 1 0 0
+atributo -> 1 0 0 0

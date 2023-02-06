@@ -1,0 +1,13 @@
+* {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+}

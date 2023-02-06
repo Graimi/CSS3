@@ -1,0 +1,40 @@
+/* PSEUDOCLASES */
+div:hover {
+    background-color: yellowgreen;
+    color: blueviolet;
+}
+
+input:read-only {
+    background-color: yellowgreen;
+    color: blueviolet;
+}
+
+input:hover {
+    background-color: red;
+    color: blueviolet;
+}
+
+/* PSEUDOELEMENTOS */
+.cita::before {
+    content: "<<";
+    color: coral;
+    font-style: italic;
+}
+
+.cita::after {
+    content: ">>";
+    color: coral;
+}
+
+.cita {
+    font-style: italic;
+}
+
+/* MEZCLA DE AMBOS */
+.spider:hover::after {
+    content: '🕷️';
+}
+
+.spider:hover {
+    background-color: red;
+}

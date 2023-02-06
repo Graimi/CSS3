@@ -1,0 +1,15 @@
+:root {
+    --background-color: coral;
+    --color-text: coral;
+    --spacing-text: 2em;
+}
+
+div {
+    background-color: var(--background-color);
+}
+
+p {
+    color: var(--color-text);
+    padding: var(--spacing-text);
+    
+}

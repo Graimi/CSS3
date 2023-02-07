@@ -1,0 +1,22 @@
+* {
+  background-color: black;
+}
+
+.container {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

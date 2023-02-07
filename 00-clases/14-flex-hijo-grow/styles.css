@@ -1,0 +1,29 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+/* Flex Grow */
+.flex {
+  display: flex;
+}
+
+.flex > .item {
+  box-sizing: border-box;
+  color: blueviolet;
+  background-color: coral;
+  padding: 2em;
+  margin: 0.25em;
+}
+
+.flex > .item-b {
+  flex-grow: 1;
+}
+
+.flex > .item-c {
+  flex-grow: 2;
+}
+
+.flex-grow-0, .item{
+  flex-grow: 0;
+}

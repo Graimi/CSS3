@@ -1,0 +1,23 @@
+#transition-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  background-color: black;
+  color: yellow;
+  font-size: 18px;
+  padding: 16px 24px;
+  text-align: center;
+  transition: scale 0.5s;
+}
+
+button:hover {
+    background-color: yellow;
+    color: black;
+    scale: 1.2;
+  }

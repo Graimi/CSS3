@@ -1,0 +1,41 @@
+header {
+    background-color: coral;
+    width: 90%;
+    margin: 0 auto;
+    padding: 3%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center
+}
+
+.logo, .list-1, .list-2 {
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-color: greenyellow;
+    text-decoration: none;
+    padding: 4px 32px;
+    height: 15%;
+}
+
+.list-1, .list-2 {
+    list-style: none;
+}
+
+.logo a, .list-1 a, .list-2 a {
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.list-1 a, .list-2 a {
+    background-color: blueviolet;
+    color: black;
+}
+

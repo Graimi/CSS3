@@ -1,0 +1,19 @@
+.father {
+  width: auto;
+  height: 300px;
+  background-color: aqua;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: max-content;
+  text-align: center;
+}
+
+.child {
+  background-color: coral;
+  height: 50px;
+  width: 100px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}

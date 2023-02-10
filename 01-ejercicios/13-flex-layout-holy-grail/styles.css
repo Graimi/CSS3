@@ -28,7 +28,13 @@ body {
     height: 100vh;
     flex-wrap: wrap;
     color: yellow;
-    background-image: url(./assets/images/pexels-ivan-samkov-4162449.jpg);
+    /* Bichear
+    img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+} */
+    background-image: url(./assets/images/pexels-cottonbro-studio-4761785.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

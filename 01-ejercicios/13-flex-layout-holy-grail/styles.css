@@ -1,0 +1,98 @@
+/* 
+[X] El texto del header tiene un tamaño de 32px y un weight de 900.
+[X] El texto del header está centrado verticalmente y a 16px del 
+borde de la pantalla.
+[X] El footer está en la parte inferior de la pantalla tocando el borde.
+[X] El texto del footer esta centrado vertical y horizontalmente.
+[X] El sidebar y el contenedor de cartas tienen que ocupar todo el 
+espacio posible disponible por encima del footer.
+[X] El sidebar tiene un ancho de 300px.
+[X] Los links del sidebar tienen un tamaño de 24px, blancos y 
+no tienen los estilos de subrayado que vienen por defecto.
+[X] El sidebar tiene un padding de 16px.
+[X] La sección de las cartas tiene un padding alrededor de 32px.
+[X] Las cartas están repartidas horizontalmente pero cuando ya no 
+caben más se wrapean a la siguiente línea. Hay que calcular cuando 
+espacio deberían ocupar para que quede como en el resultado.
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Overpass Mono', monospace;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    color: yellow;
+    background-image: url(./assets/images/pexels-ivan-samkov-4162449.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Aquí hacer diseño de tipo que sobresalga */
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.712);
+    color: yellow;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 16px;
+}
+
+/* Pulir el tamaño para que no wrape y tenga un mínimo */
+/* Ver opción de maquetar como saco de boxeo */
+.sidebar {
+    width: 15%;
+    min-width: 50px;
+    background-color: black;
+    padding: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    color: yellow;
+}
+
+.content {
+    width: 85%;
+    height: 82%;
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    overflow: auto;
+}
+
+.card {
+    display: flex;
+    padding: 5px;
+    height: 33vh;
+    width: 33vh;
+    /* width: 100px; */
+    background-color: rgba(128, 128, 128, 0.514);
+    overflow:auto;
+}
+
+/* Hacer footer tipo madera */
+.footer {
+    width: 100%;
+    height: 8%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
